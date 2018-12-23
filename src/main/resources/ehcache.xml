@@ -1,0 +1,18 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd"
+         updateCheck="true"
+         monitoring="autodetect"
+         dynamicConfig="true">
+
+
+  <cache name="eventCache"
+         maxBytesLocalHeap="64m"
+         eternal="false"
+         overflowToDisk="false"
+         timeToLiveSeconds="300"
+         timeToIdleSeconds="300"
+         memoryStoreEvictionPolicy="LFU"
+         transactionalMode="off">
+  </cache>
+
+</ehcache>

@@ -1,0 +1,4 @@
+{"id":"eventid1", "state":"FINISHED", "type":"typeZero1", "host":"hostZero1", "timestamp":1545328697}
+{"id":"eventid0", "state":"STARTED", "type":"typeZero0", "host":"hostZero0", "timestamp":1545328690}
+{"id":"eventid1", "state":"STARTED", "type":"typeZero1", "host":"hostZero1", "timestamp":1545328690}
+{"id":"eventid0", "state":"FINISHED", "type":"typeZero0", "host":"hostZero0", "timestamp":1545328692}
